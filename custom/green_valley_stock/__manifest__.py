@@ -1,13 +1,15 @@
 {
     "name": "Green Valley Stock",
     "summary": "Stock customisations for Green Valley Bikes.",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.1.0",
     "category": "Inventory/Inventory",
     "author": "Green Valley Bikes",
     "website": "https://example.com",
     "license": "LGPL-3",
-    "depends": ["stock"],
-    "data": [],
+    "depends": ["stock", "product"],
+    "data": [
+        "views/product_template_views.xml",
+    ],
     "installable": True,
     "application": False,
     "auto_install": False,
